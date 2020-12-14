@@ -7,7 +7,7 @@ It contains the following endpoints:
 - GET /statistics
 - DELETE /transactions
 
-Node.js needs to be v13.8.0 or higher.
+Node.js needs to be v13.8.0 or higher. A database was not used.
 
 This API was created using the following dependencies:
 
