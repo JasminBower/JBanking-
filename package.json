@@ -1,0 +1,24 @@
+{
+	"name": "N26TechTest",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha spec/app.spec.js",
+		"start": "node listen.js",
+		"test-utils": "mocha spec/utils.spec.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"joi": "^17.3.0"
+	},
+	"devDependencies": {
+		"supertest": "^5.0.0",
+		"mocha": "^8.2.0",
+		"nodemon": "^2.0.5",
+		"chai": "^4.2.0"
+	}
+}
